@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>HTML Skeleton</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+        <link href="style.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+
+    <body>
+
+        <h1>
+Cast Members for Resident Evil Games</h1>
+
+
+        <h3>Pick a game to see who was in it.</h3>
+        <button class="filter" data-filter="resident-evil">Resident Evil </button>
+        <button class="filter" data-filter="resident-evil2">Resident Evil 2</button>
+        <button class="filter" data-filter="resident-evil3">Resident Evil 3</button>
+        <button class="filter" data-filter="resident-evil-code-veronica">Resident Evil Code Veronica</button>
+        <button class="filter" data-filter="resident-evil4">Residnet Evil 4</button>
+        <button class="filter" data-filter="resident-evil5">Resident Evil 5</button>
+        <button class="filter" data-filter="resident-evil6">Resident Evil 6</button>
+        <button class="filter" data-filter="resident-evil7">Resident Evil 7</button>
+
+        <!-- Use checkboxes -->
+
+        <button class="filter" data-filter="all">All</button>
+        <button class="filter" data-filter="reset">Reset</button>
+
+        <div id="chris-redfield" class="item resident-evil resident-evil-code-veronica resident-evil5 resident-evil6 resident-evil7">
+            <img src="images/chrisredfield.png">CHRIS REDFIELD</img>
+        </div>
+        <div id="jill-valentine" class="item resident-evil resident-evil3 resident-evil5"><img src="images/jillvalentine.png">JILL VALENTINE</div>
+        </img>
+        <div id="albert-wesker" class="item resident-evil resident-evil-code-veronica resident-evil4 resident-evil5"><img src="images/albertweaker.png">ALBERT WESKER</div>
+        </img>
+        <div id="leon-kennedy" class="item resident-evil4 resident-evil6 resident-evil2"><img src="images/leonkennedy.png">LEON KENNEDY</div>
+        </img>
+        <div id="claire-redfield" class="item resident-evil2 resident-evil-code-veronica"><img src="images/claireredfield.png">CLAIRE REDFIELD</div>
+        </img>
+        <div id="barry-burton" class="item resident-evil resident-evil3"><img src="images/barryburton.png">BARRY BURTON</div>
+        </img>
+        <div id="carlos-oliveira" class="item resident-evil3"><img src="images/carlosolivera.png">CARLOS OLIVERA</div>
+        </img>
+        <div id="sheva-alomar" class="item resident-evil5"><img src="images/shevaalomar.png">SHEVA ALOMAR</div>
+        </img>
+        <div id="ada-wong" class="item resident-evil2 resident-evil4 resident-evil6"><img src="images/adawong.png">ADA WONG</div>
+        </img>
+        <div id="ethan-winters" class="item resident-evil7"><img src="images/ethanwinters.png">ETHAN WINTERS</div>
+        </img>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="main.js"></script>
+    </body>
+
+</html>
