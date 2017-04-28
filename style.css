@@ -55,11 +55,6 @@ table {
 
 /* BEGIN YOUR STYLES HERE */
 
-h1 {
-    padding: 30px;
-    text-decoration: underline;
-}
-
 h3 {
     padding: 0 20px 20px 20px;
     font-weight: 400;
@@ -68,18 +63,24 @@ h3 {
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 12px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: rgb(138, 7, 7);
     padding: 0 20px 20px 20px;
 }
 
+h1 {
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+
 img {
-    width: 150px;
+    width: 140px;
     height: 300px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .filter {

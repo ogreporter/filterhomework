@@ -9,6 +9,8 @@ $(document).ready(function () {
 			var this_filter = $(this);
 			var filter = this_filter.data("filter");
 
+
+
 			if (filter === "all") {
 				$(".item").addClass("active");
 			} else {
@@ -17,6 +19,8 @@ $(document).ready(function () {
 			if (filter === "reset") {
 				$(".item").removeClass("active");
 			}
+
+
 		});
 	});
 });
